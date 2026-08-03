@@ -1,0 +1,40 @@
+﻿<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="Fidelidade.App.MainPage"
+    Title="Fidelidade">
+
+    <VerticalStackLayout
+        Padding="30"
+        Spacing="20"
+        VerticalOptions="Center">
+
+        <Label
+            Text="Programa Fidelidade"
+            FontSize="30"
+            HorizontalOptions="Center"
+            FontAttributes="Bold"/>
+
+        <Button
+            Text="Cadastrar Cliente"
+            Clicked="CadastrarCliente"/>
+
+        <Button
+            Text="Registrar Venda"
+            Clicked="RegistrarVenda"/>
+
+        <Button
+            Text="Consultar Cliente"
+            Clicked="ConsultarCliente"/>
+
+        <Button
+            Text="Resgatar Ticket"
+            Clicked="ResgatarTicket"/>
+
+        <Button
+            Text="Listar Clientes"
+            Clicked="ListarClientes"/>
+
+    </VerticalStackLayout>
+
+</ContentPage>
