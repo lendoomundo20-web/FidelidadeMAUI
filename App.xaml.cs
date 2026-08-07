@@ -1,14 +1,10 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 
-namespace Fidelidade.App
+namespace AdrianaApp
 {
     public partial class App : Application
     {
-        public AppShell()
-        {
-            InitializeComponent();
-        }
-        ()
+        public App()
         {
             InitializeComponent();
         }

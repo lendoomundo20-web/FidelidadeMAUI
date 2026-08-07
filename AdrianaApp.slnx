@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="../ClassLibrary1/AdrianaApp.core.csproj" />
+  <Project Path="AdrianaApp.Maui.csproj">
+    <Deploy Solution="Debug|*" />
+  </Project>
+</Solution>
