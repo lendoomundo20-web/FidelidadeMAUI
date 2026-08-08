@@ -81,11 +81,36 @@
 	  <Compile Update="Pages\CadastrarClientePage.xaml.cs">
 	    <DependentUpon>CadastrarClientePage.xaml</DependentUpon>
 	  </Compile>
+	  <Compile Update="Pages\ConsultarClientePage.xaml.cs">
+	    <DependentUpon>ConsultarClientePage.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Pages\ResgatarTicketPage.xaml.cs">
+	    <DependentUpon>ResgatarTicketPage.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Pages\RegistrarVendaPage.xaml.cs">
+	    <DependentUpon>RegistrarVendaPage.xaml</DependentUpon>
+	  </Compile>
 	</ItemGroup>
 
 	<ItemGroup>
 	  <MauiXaml Update="Pages\CadastrarClientePage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Pages\ConsultarClientePage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\ListarClientes.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\ResgatarTicketPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\RegistrarVendaPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\AdrianaApp.core\AdrianaApp.core.csproj" />
 	</ItemGroup>	
 </Project>
